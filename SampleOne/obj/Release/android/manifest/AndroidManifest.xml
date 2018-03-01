@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="SampleOne.SampleOne" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="23" />
+  <application android:label="AxMobileApp" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:label="Dashboard" android:theme="@style/Theme.DesignDemo" android:name="md5e7b732364c907136ad539f09ba10bfb3.DashboardActivity" />
+    <activity android:icon="@drawable/iconax" android:label="SampleOne" android:name="md5e7b732364c907136ad539f09ba10bfb3.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="SampleOne.SampleOne.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>
