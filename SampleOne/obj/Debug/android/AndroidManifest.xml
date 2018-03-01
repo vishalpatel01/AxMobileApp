@@ -5,6 +5,7 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="AxMobileApp" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:label="Dashboard" android:theme="@style/Theme.DesignDemo" android:name="md5e7b732364c907136ad539f09ba10bfb3.DashboardActivity" />
+    <activity android:label="DashboardActivityA" android:name="md5e7b732364c907136ad539f09ba10bfb3.DashboardActivityA" />
     <activity android:icon="@drawable/iconax" android:label="SampleOne" android:name="md5e7b732364c907136ad539f09ba10bfb3.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

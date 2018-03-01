@@ -2,6 +2,10 @@ SampleOne.DashboardActivity, SampleOne;md5e7b732364c907136ad539f09ba10bfb3.Dashb
 SampleOne.DashboardActivity, SampleOne, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e7b732364c907136ad539f09ba10bfb3.DashboardActivity
 SampleOne.DashboardActivity;md5e7b732364c907136ad539f09ba10bfb3.DashboardActivity
 sampleone.DashboardActivity;md5e7b732364c907136ad539f09ba10bfb3.DashboardActivity
+SampleOne.DashboardActivityA, SampleOne;md5e7b732364c907136ad539f09ba10bfb3.DashboardActivityA
+SampleOne.DashboardActivityA, SampleOne, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e7b732364c907136ad539f09ba10bfb3.DashboardActivityA
+SampleOne.DashboardActivityA;md5e7b732364c907136ad539f09ba10bfb3.DashboardActivityA
+sampleone.DashboardActivityA;md5e7b732364c907136ad539f09ba10bfb3.DashboardActivityA
 SampleOne.MainActivity, SampleOne;md5e7b732364c907136ad539f09ba10bfb3.MainActivity
 SampleOne.MainActivity, SampleOne, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e7b732364c907136ad539f09ba10bfb3.MainActivity
 SampleOne.MainActivity;md5e7b732364c907136ad539f09ba10bfb3.MainActivity

@@ -19,6 +19,7 @@ namespace SampleOne
         NavigationView navigationView;
         protected override void OnCreate(Bundle bundle)
         {
+            RequestWindowFeature(WindowFeatures.NoTitle);
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.NavigationDashboard);
             var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);

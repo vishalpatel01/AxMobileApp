@@ -22,7 +22,6 @@ namespace SampleOne
         Button btnLog;
         protected override void OnCreate(Bundle bundle)
         {
-
             RequestWindowFeature(WindowFeatures.NoTitle);
             base.OnCreate(bundle);
 
@@ -35,9 +34,7 @@ namespace SampleOne
 
         private async void BtnLog_Click(object sender, System.EventArgs e)
         {
-
-            StartActivity(typeof(DashboardActivity));
-
+            StartActivity(typeof(DashboardActivityA));
             //string url = "http://223.196.116.19:8089/20180113_072244_7330484_00001.xml";
             ////JsonValue json = await FetchWeatherAsync(url);
 
@@ -45,7 +42,6 @@ namespace SampleOne
             //HttpClient client = new HttpClient();
             //HttpResponseMessage responseGet = await client.GetAsync(geturi);
             //string response = await responseGet.Content.ReadAsStringAsync();//Getting response  
-
             ////string Text = HtmlToPlainText(response);
 
             ////Convert object to xml format.

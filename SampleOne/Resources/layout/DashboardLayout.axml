@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <include
+        android:id="@+id/DashboardHeaderLayout"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        layout="@layout/HeaderLayout" />
+    <Button
+        android:id="@+id/btnCounting"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Counting"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        android:layout_below="@id/DashboardHeaderLayout"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+</RelativeLayout>
